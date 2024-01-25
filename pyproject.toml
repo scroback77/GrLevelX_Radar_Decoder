@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "grlevelx-radar-decoder"
+version = "0.1.0"
+description = "Radar Data Decoder for GRLevelX"
+authors = ["Samuel Roback"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+arm-pyart = "^1.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
